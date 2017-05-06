@@ -1,0 +1,94 @@
+.VideoListItem{
+border-radius: 5px;
+border: 1px solid black;
+margin-top: 5px;
+height: 100%;
+width: 100%;
+
+position: relative;;
+
+}
+
+.VideoListItem:hover{border: 2px solid blue;}
+.VideoList{
+  position: relative;
+  width: 400px;
+  height: 150px;
+  top: -750px;
+  left:calc(100% - 400px);
+
+}
+.VideoList img{
+
+  width: 200px;
+  height: 100%;
+  top: -750px;
+  left:calc(100% - 450px);
+
+}
+iframe{
+margin-top: 30px;
+margin-left: 50px;
+width: 994px;
+height: 585px;
+
+
+}
+.search_input{
+margin-top: 30px;
+margin-left: 100px;
+height:47px;
+width: 800px;
+
+
+
+}
+
+.search{
+background-image: url('http://maximagic.ru/images/search.png');
+background-size: 48px 45px;
+position: absolute;
+top:33px;
+left:800px;
+height: 45px;
+width:45px;
+
+
+}
+.search:hover{
+
+background-size: 50px 50px;
+
+
+}
+.search_input input{
+position: absolute;;
+top:30px;
+left:100px;
+height: 47px;
+width:750px;
+
+}
+
+.videoTitle{
+  margin-top: 10px;
+  margin-left: 60px;
+font-size: 45px;
+font-weight: bold;
+
+
+}
+.videoAbout{  
+  margin-top: 10px;
+  margin-left: 60px;
+font-size: 25px;
+
+}
+.videoName{
+text-align: center;
+margin-left: 200px;
+font-size: 20px;
+font-weight:bold;
+
+
+}
